@@ -3,4 +3,6 @@ import requests
 
 
 
-class 
+class QuebecHydroRawDataFetcher:
+    def __init__(self):
+        self.base_url = "https://www.cehq.gouv.qc.ca/atlas-hydroclimatique/stations-hydrometriques/index.htm"
